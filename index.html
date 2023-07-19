@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <title>SCU library</title>
+</head>
+<body>
+    <h1>List of Books:</h1>
+    <table id="tbl1" name="tbl1"></table>
+    <!--Adding book to the table-->
+    <h2>Add Book:</h2>
+    <label>Enter Book id</label>
+    <input type="number" id="add-id" required /><br>
+    <label>Enter Book Name</label>
+    <input type="text" id="add-name" required /><br>
+    <label>Enter Book Author</label>
+    <input type="text" id="add-author" required /><br>
+    <label>Enter Book Edition</label>
+    <input type="number" id="add-edition" required /><br>
+    <input type="button" value="Add Book" onclick="add()"><br>
+    <!--Updating book available in the table-->
+    <h2>Update Book:</h2>
+    <label>Enter Book id</label>
+    <input type="number" id="update-id" required /><br>
+    <label>Enter Book Name</label>
+    <input type="text" id="update-name" required /><br>
+    <label>Enter Book Author</label>
+    <input type="text" id="update-author" required /><br>
+    <label>Enter Book Edition</label>
+    <input type="number" id="update-edition"required /><br>
+    <input type="button" value="Update Book" onclick="update()"><br>
+    <!--Search book in the table-->
+    <h2>Search Book:</h2>
+    <label>Enter Book Name</label>
+    <input type="text" id="search-book" required /><br>
+    <input type="button" value="Search Book" onclick="search()"><br>
+    <table id="tbl2" name="tbl2"></table>
+    <!--Delete book from the table-->
+    <h2>Delete Book:</h2>
+    <label>Enter Book Name</label>
+    <input type="text" required id="delete-book"/><br>
+    <input type="button" value="Delete Book" onclick="del()"><br>
+</body>
+</html>
