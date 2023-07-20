@@ -1,6 +1,4 @@
-//AI was used to fix most of the funtions in Typescript as i was having alot of issues while trying to link HTML and Typescript.
-//All the fuctions were written and fixed with the help of AI.
-//HTML was done by myself and little bit of help by tutor.
+
 interface iBook {
     id: string;
     name: string;
